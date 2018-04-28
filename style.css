@@ -1,4 +1,138 @@
-img{
-	width: 100%;
-	height: 400px;
+
+/* banner css */
+
+#banner{
+  text-align: center;
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.3), rgba(0,0,0,0.6)),url("images/champ.jpg");
+  background-size: cover;
+  padding-bottom: 30px;
 }
+
+#banner h1, #banner h2 {
+  color: white;
+  text-shadow: 1px 1px 3px black;
+  margin-bottom: 30px;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+#banner h1 {
+  font-size: 50px;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+#banner h2 {
+  font-size: 25px;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+#banner p {
+  color: white;
+  opacity: 0.8;
+  font-size: 30px;
+  font-weight: lighter;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  height: 100px;
+}
+
+.avatar {
+  border-radius: 50%;
+  height: 50px;
+  border: 2px solid grey;
+  margin-right: 30px
+}
+
+.navbar-right {
+  display: flex;
+  align-items: center;
+}
+
+.items {
+  color: white;
+  font-family: arial;
+  text-decoration: none;
+  margin: 30px;
+}
+
+.items:hover {
+  color: pink;
+}
+
+/* cartes css */
+
+.container img{
+	padding: 20px;
+	border-radius: 10px;
+	height:250px;
+	width: 100%;
+	border-radius: 25px;
+	object-fit: cover;
+
+}
+.block {
+  background-color: white;
+  height: 500px;
+  border-radius: 4px;
+  padding-bottom: 20px;
+  margin-top: 20px;
+}
+
+.red-block {
+  background-color: blue;
+}
+
+body{
+	background-color: #EAD3E8;
+	padding: 50px;
+}
+.container h1{
+	font-family: 'Ubuntu', sans-serif;
+	color: #313131;
+	text-align: center;
+	margin-bottom: 35px;
+}
+.container h2{
+	font-family: 'Ubuntu', sans-serif;
+	color: #313131;
+	text-align: center;
+	padding-top: 15px;
+	font-size: 28px;
+}
+.container h3{
+	font-family: 'Ubuntu', sans-serif;
+	color:#293858;
+	text-align: center;
+	padding-top: 15px;
+	font-size: 18px;
+	padding: 10px;
+}
+
+.btn-danger{
+	width: 86%;
+	text-align: center;
+	background-color: #30011E;
+	border-color: #30011E;
+}
+.images-center h1{
+	text-align: center;
+	font-size: 30px;
+	margin-top: 20px
+}
+
+/* formulaire css */
+
+
+
+
+
+
+
+
+
