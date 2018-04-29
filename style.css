@@ -128,6 +128,23 @@ body{
 
 /* formulaire css */
 
+/* section css*/
+
+.section {
+  padding: 50px;
+  text-align: center;
+}
+
+.section h1, .section h3 {
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.section-blue {
+  background-color: #93B6D4;
+  margin: 30px;
+}
+
 
 
 
